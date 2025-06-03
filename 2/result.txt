@@ -1,0 +1,13 @@
+Title: Logout Button Unresponsive on Safari Browser
+Description: The "Logout" button fails to respond when clicked while using the Safari browser. The issue appears to be limited to Safari and does not occur in other commonly used browsers like Chrome or Firefox. The button provides no visual feedback or action upon interaction, preventing users from logging out.
+Steps to Reproduce:
+	1	Open the application in Safari (macOS or iOS).
+	2	Log into the account successfully.
+	3	Navigate to the user menu or header where the "Logout" button is located.
+	4	Click on the "Logout" button.
+Expected vs Actual Behavior: Expected: Clicking the "Logout" button should log the user out and redirect to the login or landing page. Actual: Nothing happens when the button is clicked. There is no feedback, redirection, or logout event triggered.
+Environment:
+	•	Browser: Safari (latest stable version)
+	•	OS: macOS and/or iOS (exact version not specified)
+	•	Device: Desktop or mobile (Safari on both platforms likely affected)
+Severity or Impact: Blocks logout flow for Safari users, potentially leading to session management and security concerns.
