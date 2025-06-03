@@ -1,0 +1,15 @@
+You are a senior software architect assisting with a technical decision.
+
+I am designing a social platform expected to support millions of users. Here are the core requirements:
+1) The system needs to store user profiles, user posts, and connections between users (for example friends, followers, posts, comments).
+2) The platform must support very high data read speeds.
+3) The operation workload is approximately 80% reads and 20% writes.
+4) Scalability is a major concern as the user base will grow significantly.
+
+Make Chain-of-Thought reasoning to:
+1) Analyze a given set of project requirements.
+2) Break down each requirement and explain what it implies for database selection.
+3) Compare relevant database types (for example relational, NoSQL document, graph, key-value).
+Justify which database types would be most suitable based on the project needs.
+4) Optionally suggest specific technologies (for example PostgreSQL, MongoDB, Neo4j, Cassandra) and explain why.
+Please ensure your reasoning is step-by-step, clear, and includes trade-offs where applicable
