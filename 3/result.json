@@ -4,7 +4,7 @@
     "sentiment_score": 0.35,
     "metadata": {
         "word_count": 215,
-        "sentence_count": 8,
+        "sentence_count": 11,
         "tone": ["informative", "analytical", "balanced"],
         "subjectivity": "moderate",
         "main_topics": [
