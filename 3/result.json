@@ -1,0 +1,52 @@
+{
+    "summary": "The text discusses the growing popularity of remote work, especially after the global pandemic, highlighting both its benefits—such as improved work-life balance and reduced costs—and its challenges, including employee isolation and productivity concerns. It concludes that remote work is likely to persist, with companies adopting hybrid models supported by advancing technology.",
+    "sentiment_class": "positive",
+    "sentiment_score": 0.35,
+    "metadata": {
+        "word_count": 215,
+        "sentence_count": 8,
+        "tone": ["informative", "balanced"],
+        "subjectivity": "moderate",
+        "main_topics": [
+            "remote work",
+            "flexible work",
+            "pandemic",
+            "employee productivity",
+            "technology",
+            "hybrid work models"
+        ],
+        "key_words": [
+            "remote work",
+            "telecommuting",
+            "pandemic",
+            "job satisfaction",
+            "operational costs",
+            "isolation",
+            "hybrid models",
+            "technology"
+        ],
+        "notable_phrases": [
+            "higher job satisfaction",
+            "lack of connection",
+            "blurred boundaries",
+            "hybrid models",
+            "tools for video conferencing"
+        ],
+        "perspective": "third-person objective",
+        "emotional tone indicators": {
+            "positive": [
+                "higher job satisfaction",
+                "increased flexibility",
+                "comfort of their homes",
+                "making it easier"
+            ],
+            "negative": [
+                "feelings of isolation",
+                "lack of connection",
+                "difficult to maintain productivity"
+            ]
+        },
+        "tense": "primarily present with future outlook",
+        "readability_grade_level": "10th-12th grade (Flesch-Kincaid)"
+    }
+}
