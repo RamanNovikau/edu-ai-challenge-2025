@@ -1,29 +1,13 @@
-```json
-{
-  "summary": "The text discusses the growing popularity of remote work, especially after the global pandemic, highlighting both its benefits—such as improved work-life balance and reduced costs—and its challenges, including employee isolation and productivity concerns. It concludes that remote work is likely to persist, with companies adopting hybrid models supported by advancing technology.",
-  "sentiment_class": "positive",
-  "sentiment_score": 0.35,
-  "metadata": {
-    "word_count": 215,
-    "sentence_count": 8,
-    "tone": ["informative", "balanced"],
-    "subjectivity": "moderate",
-    "main_topics": ["remote work", "flexible work", "pandemic", "employee productivity", "technology", "hybrid work models"],
-    "key_words": ["remote work", "telecommuting", "pandemic", "job satisfaction", "operational costs", "isolation", "hybrid models", "technology"],
-    "notable_phrases": [
-      "higher job satisfaction",
-      "lack of connection",
-      "blurred boundaries",
-      "hybrid models",
-      "tools for video conferencing"
-    ],
-    "perspective": "third-person objective",
-    "emotional tone indicators": {
-      "positive": ["higher job satisfaction", "increased flexibility", "comfort of their homes", "making it easier"],
-      "negative": ["feelings of isolation", "lack of connection", "difficult to maintain productivity"]
-    },
-    "tense": "primarily present with future outlook",
-    "readability_grade_level": "10th-12th grade (Flesch-Kincaid)"
-  }
-}
-```
+You are an AI language assistant specialized in natural language processing, be specific and precise
+Our task is to analyze the given input text and return a structured JSON response that includes:
+1) A concise summary of the input text (either extractive or abstractive)
+2) Sentiment classification (one of positive, neutral, or negative)
+3) A sentiment score ranging between -1 (very negative) and +1 (very positive), with decimal precision (for example: 0.65, -0.2).
+4) Any additional metadata you consider relevant (for example: word count, tone indicators, subjectivity, main topics, key words and something else useful related to this)
+
+our text: 
+Remote work, also known as telecommuting, has become increasingly popular in recent years, particularly after the global pandemic forced many companies to adapt to flexible working arrangements. The advantages of remote work are numerous. Employees often report higher job satisfaction due to the elimination of long commutes, increased flexibility in managing work-life balance, and the ability to work from the comfort of their homes. For companies, remote work can lead to lower operational costs, since there is less need for office space and associated expenses.
+
+However, remote work is not without its challenges. Many employees struggle with feelings of isolation and a lack of connection to their colleagues, which can negatively impact collaboration and team dynamics. Moreover, some workers find it difficult to maintain productivity due to distractions at home or the blurred boundaries between personal and professional life. Employers, on the other hand, may face difficulties in monitoring employee performance and ensuring consistent communication across teams.
+
+Despite these challenges, remote work is likely here to stay. Companies are exploring hybrid models that combine the benefits of in-office collaboration with the flexibility of remote work. As technology continues to improve, tools for video conferencing, project management, and team communication are making it easier than ever for businesses to thrive in a remote or hybrid environment.
