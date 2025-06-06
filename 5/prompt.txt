@@ -1,0 +1,71 @@
+Here are the structured analyses for the two samples provided, following the reasoning procedure and JSON output format:
+
+---
+
+### **Sample 1 Analysis**
+
+**Feedback:**
+
+> "Sensor just stops tracking for like a half second kinda often even at 8000hz. I've also tried it plugged in and still the same problem. First one I got I had to return also because the dongle just didnt work, \$150 mouse btw"
+
+```json
+{
+  "sentiment": "Negative",
+  "isRelevant": true,
+  "mainSubject": "Sensor performance and connectivity of the mouse",
+  "positives": [],
+  "painPoints": [
+    "Sensor intermittently stops tracking",
+    "Issue persists even when wired",
+    "Faulty dongle on the first unit"
+  ],
+  "improvementSuggestions": [
+    "Improve sensor reliability at high polling rates",
+    "Ensure dongle quality control"
+  ],
+  "featuresMentioned": [
+    "Sensor",
+    "8000hz polling rate",
+    "Dongle",
+    "Wired connection"
+  ],
+  "userExpertise": "Experienced"
+}
+```
+
+**Reasoning:**
+
+* **Relevance:** Clearly about product performance.
+* **Sentiment:** Strongly negative tone and mentions multiple functional issues.
+* **Expertise:** Mentions 8000hz (a high polling rate known to performance users), tried wired mode, returned a unit due to dongle failure—implies hands-on knowledge.
+
+---
+
+### **Sample 2 Analysis**
+
+**Feedback:**
+
+> "Is it worth it? It is a product with no flaws in my opinion, if you love it go for it, but its not worth the price since you'll be able to perform the same with a cheaper product with half the specs."
+
+```json
+{
+  "sentiment": "Mixed",
+  "isRelevant": false,
+  "mainSubject": null,
+  "positives": [],
+  "painPoints": [],
+  "improvementSuggestions": [],
+  "featuresMentioned": [],
+  "userExpertise": "Unknown"
+}
+```
+
+**Reasoning:**
+
+* **Relevance:** This is primarily a price/value judgment, not a technical/product performance comment.
+* **Sentiment:** Mixed—likes the product but thinks it's overpriced.
+* **No further analysis needed** once relevance is marked false.
+
+---
+
+Let me know if you'd like this logic wrapped into a function or processing pipeline.
